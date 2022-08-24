@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Arrays</title>
+</head>
+
+<body>
+    <main>
+        <div class="box Add_Item">
+            <p class="box__title">Add Item</p>
+            <div class="buttons__container">
+                <button id="push">push</button>
+                <button id="unshift">unshift</button>
+                <button id="spliceA">splice(add)</button>
+                <input type="number" class="number__input" id="number__input-add" min="0">
+            </div>
+        </div>
+
+        <div class="box Remove_Item">
+            <p class="box__title">Remove Item</p>
+            <div class="buttons__container">
+                <button id="pop">pop</button>
+                <button id="shift">shift</button>
+                <button id="spliceR">splice(remove)</button>
+                <input type="number" class="number__input" id="number__input-remove" min="0">
+            </div>
+        </div>
+
+        <div class="array__container">
+            <p id="array__text">[]</p>
+            <p id="warning"></p>
+        </div>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
